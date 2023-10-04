@@ -30,3 +30,7 @@
   void User::deleteFriend(std::size_t id) {
   	_friends.erase(std::remove(_friends.begin(), _friends.end(), id), _friends.end());
   }
+
+  void hello() {
+    std::cout "hello!" << std::endl;
+  }
